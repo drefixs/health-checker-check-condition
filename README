@@ -1,0 +1,11 @@
+Example config:
+...
+
+    'condition' => [
+        'b2t' => [
+            'check_component'=>'http',
+            'check_ident'=>'http-performance-degradation-check',
+            'expression' => 'main.web.http.http-performance-degradation-check && main.web.http.http-code-check',
+        ],
+    ],
+...
