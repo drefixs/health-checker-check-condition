@@ -1,0 +1,6 @@
+/.idea
+/vendor
+/app/config/parameter.php
+/bin/*
+/data/sqllite/*.sqlite
+/.puli
